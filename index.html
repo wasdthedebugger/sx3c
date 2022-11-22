@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SXC Computer Club</title>
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+	<link rel="shortcut icon" href="images/logo.png">
+</head>
+<body>
+	<!-- banner with nav-->
+	<div class="banner">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+
+		<div class="heading"><br>
+			<h1>SXC Computer Club</h1>
+			<h4><span>Code </span><span> Compute </span><span> Create</span></h4>
+		</div>
+	</div>
+
+	<div class="menutoggle"></div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<!-- banner with nav ends -->
+
+	<!-- sxc-festival info -->
+	<div class="modal fade" id="github" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="moviestitle">SXC FESTIVAL 2022</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body p-0">
+					<div class="modal-img" style="width: 100%;"><img src="images/banner.png"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- sxc-festival info -->
+
+	<!-- image slider -->
+	<script src="js/jssor.slider.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		jssor_1_slider_init = function() {
+
+			var jssor_1_options = {
+				$AutoPlay: 1,
+				$SlideDuration: 800,
+				$PauseOnHover: false,
+				$SlideEasing: $Jease$.$OutQuint,
+				$ArrowNavigatorOptions: {
+					$Class: $JssorArrowNavigator$
+				},
+				$BulletNavigatorOptions: {
+					$Class: $JssorBulletNavigator$
+				}
+			};
+
+			var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+			/*#region responsive code begin*/
+
+			var MAX_WIDTH = 3000;
+
+			function ScaleSlider() {
+				var containerElement = jssor_1_slider.$Elmt.parentNode;
+				var containerWidth = containerElement.clientWidth;
+
+				if (containerWidth) {
+
+					var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+					jssor_1_slider.$ScaleWidth(expectedWidth);
+				}
+				else {
+					window.setTimeout(ScaleSlider, 30);
+				}
+			}
+
+			ScaleSlider();
+
+			$Jssor$.$AddEvent(window, "load", ScaleSlider);
+			$Jssor$.$AddEvent(window, "resize", ScaleSlider);
+			$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+			/*#endregion responsive code end*/
+		};
+	</script>
+
+	<div id="jssor_1" style="position:relative;margin:auto;top:10px;left:0px;width:1300px;height:400px;overflow:hidden;visibility:hidden;">
+
+		<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+			<div>
+				<img data-u="image" src="images/slider.jpg" />
+			</div>
+			<div>
+				<img data-u="image" src="images/slider.jpg" />
+			</div>
+			<div>
+				<img data-u="image" src="images/slider.jpg" />
+			</div>
+			<div>
+				<img data-u="image" src="images/slider.jpg" />
+			</div>
+			<div style="position:absolute;top:50px;left:50px;width:450px;height:62px;z-index:0;font-size:16px;color:#000000;line-height:24px;text-align:left;padding:5px;box-sizing:border-box;">
+				<img data-u="image" src="images/slider.jpg" />
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">jssor_1_slider_init();</script>
+	<!-- image slider ends -->
+	<div class="clear" style="clear: both;"></div>
+
+
+
+	<div class="title">
+		<span>SXC COMPUTER FESTIVAL 2022</span>
+	</div>
+
+	<div class="sxc-intro">
+		<div class="sxc-logo">
+			<img src="images/sxcfest.jpg">
+		</div>
+
+		<div class="sxc-detail">
+			<p>SXC Computer Festival is the platform which offers the students to celebrate and get introduced into the different dimensions of Computer and Technology simultaneously. In addition, it also allows students to explore and showcase their talent in the different category related to computer and technology. SXC Computer Festival 2020 is being organized with the slogan <b>"Tech for Natures Sake"</b>. In accordance to the theme of the college <b>"Pledging green to our common home"</b>.<a href="files/info.pdf" target="_blank"><div class="learn_more">Learn More</div></a></p>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+
+
+	<!-- other attraction -->
+	<div class="title">
+		<span>Our Attraction</span>
+	</div>
+
+	<div class="owl-two owl-carousel owl-theme mt-5">
+		<div class="item col-sm-8 t-box m-auto">
+			<div class="o-image">
+				<img src="images/drone.jpg">
+				<div class="o-info">
+					<p>ICT Talks</p>
+				</div>
+			</div>
+		</div>	
+
+		<div class="item col-sm-8 t-box m-auto">
+			<div class="o-image">
+				<img src="images/virtual.jpg">
+				<div class="o-info">
+					<p>Graphics Design Competetion</p>
+				</div>
+			</div>
+		</div>	
+
+		<div class="item col-sm-8 t-box m-auto">
+			<div class="o-image">
+				<img src="images/food.jpg">
+				<div class="o-info">
+					<p>ICT Quiz</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="item col-sm-8 t-box m-auto">
+			<div class="o-image">
+				<img src="images/mini.jpg">
+				<div class="o-info">
+					<p>Mini Games</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="item col-sm-8 t-box m-auto">
+			<div class="o-image">
+				<img src="images/games.jpeg">
+				<div class="o-info">
+					<p>Web Development Competetion</p>
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	<!-- sponsors -->
+	<div class="title">
+		<span>Sponsors</span>
+	</div>
+
+	<div class="title-sponsor">
+		<div class="title-img">
+			<h4>Major Sponsor</h4><br>
+			<img src="images/global.jpg">
+		</div>
+	</div>
+
+		<div class="title-sponsor"><br>
+			<div class="title-img">
+				<h4>Internet Partner:</h4>
+				<img src="images/wlink.png">
+			</div>
+		</div>
+
+		<div class="title-sponsor"><br>
+			<div class="title-img">
+				<h4>General Sponsors</h4>
+				<img src="images/edailo.png">
+			</div>
+		</div>
+	
+
+	<!-- footer -->
+	<footer>
+		<div class="first-row">
+		  <ul align="center">
+					<li><a href="https://www.facebook.com/sx3c.sxc.nepal/?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a></li>
+	
+			<li><a href="https://instagram.com/sx3c_club"><i class="fa fa-instagram"></i></a></li>
+		  </ul>
+		</div>
+	
+		<div class="second-row">
+		  <p align="center">&copy;2019-2020 Copyright <span>SX3C</span><br>Designed by Collaborative Effort</p>
+		</div>
+	  </footer>
+	</footer>
+	<!-- footer ends -->
+
+	<!-- responsive navbar -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menutoggle').click(function(){
+				$('.menutoggle').toggleClass('nav-active');
+				$('.menu').toggleClass('nav-active');
+			})
+		})
+	</script>
+	<!-- responsive navbar ends -->
+
+	<!-- owl carousel one -->
+	<script>
+		$(document).ready(function() {
+			$('.owl-one').owlCarousel({
+				loop: true,
+				autoplay:true,
+				margin: 10,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: false
+					},
+					600: {
+						items: 2,
+						nav: false
+					},
+					1000: {
+						items: 4,
+						nav:false,
+						loop: true,
+						dots: true,
+						dotsEach: true,
+						margin: 20
+					}
+				}
+			})
+		})
+	</script>
+
+	<!-- owl carousel ends-->
+
+	<!-- owl carousel two -->
+	<script>
+		$(document).ready(function() {
+			$('.owl-two').owlCarousel({
+				loop: true,
+				autoplay:true,
+				margin: 10,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: false
+					},
+					600: {
+						items: 1,
+						nav: false
+					},
+
+					1000: {
+						items: 1,
+						nav:false,
+						loop: true,
+						dots: true,
+						dotsEach: true,
+						margin: 20
+					}
+				}
+			})
+		})
+	</script>
+
+	<!-- owl carousel ends-->
+
+	<!-- automatic modal -->
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#github').modal('show');
+    });
+</script>
+<!-- automatic modal -->
+
+
+</body>
+</html>

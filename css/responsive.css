@@ -1,0 +1,446 @@
+@media (max-width: 1000px ){
+	.timeline{
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px ){
+	/*index*/
+	.banner {
+		padding: 30px 35px;
+	}
+
+	.logo {
+		width: 15%;
+		float: left;
+	}
+
+	.heading h1 {
+		font-size: 40px;
+	}
+
+	.menu {
+		padding: 10px 30px;
+	}
+
+	.menu ul li a {
+		padding: 15px 20px;
+		font-size: 15px;
+	}
+
+	.m-img {
+		width: 30%;
+		float: left;
+	}
+
+	.m-quote {
+		font-size: 20px;
+	}
+
+	.m-name h3 {
+		font-size: 21px;
+	}
+
+	.m-name h4 {
+		font-size: 16px;
+	}
+
+	/*executive*/
+	.mentors{
+  padding: 30px 50px;
+  margin-top: 7%;
+}
+
+.mentor-box {
+  width: 31%;
+  padding: 80px 10px 0px;
+}
+
+.mbox-3{
+  margin-left: 0;
+  margin-top: 15%;
+}
+
+.mbox-last{
+  float: right;
+  margin-right:2%;
+    margin-top: 10%;
+      margin-top: 15%;
+}
+
+/*house system*/
+.house-row,.house-row2{
+  display: table;
+  width: 100%;
+  padding: 20px 30px;
+  background: #e0e0e0;
+}
+
+.house-box{
+  width: 32%;
+  padding: 10px;
+  height: 175px;
+}
+
+.house-middle{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.house-box h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.house-box p{
+	font-size: 14px;
+}
+
+.house-box i{
+  display: block;
+  margin: auto;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*contact*/
+.user-form {
+height: 500px;
+  padding: 20px 20px 0;
+}
+
+.user-form h3 {
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+
+.user-form input {
+  width: 90%;
+  margin-bottom: 2%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.user-form textarea {
+  width:90%;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-bottom: 5%;
+}
+
+.user-form .submit {
+  width: 50%;
+  font-size: 20px;
+}
+
+.contact-box {
+  padding: 15px 10px;
+}
+
+.contact-top {
+  font-size: 20px;
+  margin-bottom: 7%;
+}
+
+.all-info {
+  font-size: 14px;
+}
+
+.all-info ul{
+
+}
+
+.all-info ul li{
+  list-style-type: none;
+  display: block;
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+.all-info ul li:nth-child(1):before,.all-info ul li:nth-child(2):before,.all-info ul li:nth-child(3):before{
+    padding-right: 2px;
+}
+
+/*blog*/
+.blog-contact ul{
+  top: 90%;
+  left: 50%;
+}
+}
+
+@media (max-width: 650px){
+	.banner {
+		padding: 20px;
+	}
+
+	.logo {
+		width: 18%;
+		float: left;
+	}
+
+	.heading h1 {
+		font-size: 25px;
+	}
+
+	.heading h4{
+		font-size: 18px;
+	}
+
+.menu{
+		margin: auto;
+		display: block;
+	}
+
+	.menu ul{
+		margin-top: 0;
+	}
+
+	.menutoggle{
+		float: right;
+		margin: 0px;
+		text-align: center;
+		transition: 0.5s;
+		cursor: pointer;
+		width: 100%;
+		background: #233240;
+	}
+
+	.menutoggle:before{
+		content: '\f0c9';
+		font-family: 'FontAwesome';
+		font-size: 35px;
+		color:#fff;
+		transition: 0.5s;
+	}
+
+	.menutoggle.nav-active:before{
+		content: '\f00d';
+	}
+
+	.menu{
+		display: none;
+	}
+
+	.menu.nav-active{
+		display: block;
+		width: 100%;
+		transition: 0.5s;
+	}
+
+	.menu.nav-active{
+		float: left;
+		padding: 10px;
+		text-align: left;
+		background: #fff;
+	}
+
+	.menu.nav-active ul{
+		display: block;
+		float: left;
+	}
+
+	.menu.nav-active  ul li{
+		display: block;
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.menu.nav-active ul li a{
+		font-size: 18px;
+	}
+
+	.menu ul li a{
+		padding:3px;
+		font-size: 13px;
+		color: #000;
+	}
+
+
+	.moderator{
+		padding: 10px;
+	}
+
+	.m-img {
+		width: 100%;
+	}
+
+	.m-img img{
+		width: 50%;
+		display: block;
+		margin: auto;
+	}
+
+	.m-quote {
+		margin-top: 10px;
+		width: 100%;
+		font-size: 18px;
+	}
+
+	.m-name h3 {
+		font-size: 17px;
+	}
+
+	.m-name h4 {
+		font-size: 14px;
+	}
+
+	/*executive*/
+.mentors{
+  padding: 30px 20px;
+  margin-top: 7%;
+}
+
+.mentor-box {
+  width: 100%;
+  padding: 80px 10px 0px;
+  margin-top: 21%;
+}
+
+.mbox-1,.mbox-2,.mbox-3{
+  margin-left: 0;
+}
+
+.mbox-last{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.mbox-first{
+	margin-top: 5%;
+}
+
+/*house system*/
+.house-row,.house-row2{
+  display: table;
+  width: 100%;
+  padding: 5px 20px;
+  background: #e0e0e0;
+}
+
+.house-box{
+  width: 100%;
+  padding: 10px;
+  height: 175px;
+}
+
+.house-middle{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.house-box h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.house-box p{
+	font-size: 17px;
+}
+
+.house-box i{
+  display: block;
+  margin: auto;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*contact*/
+	.contact-holder{
+		left: 0;
+		width: 100%;
+	}
+
+.user-form{
+	padding: 20px;
+	display: table;
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.user-form h3{
+	font-family: lato;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.user-form input{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	outline: none;
+	margin-bottom: 3%;
+	padding: 5px 20px;
+	font-size: 12px;
+}
+
+.user-form textarea{
+	outline: none;
+	resize: none;
+	width: 100%;
+	height: 100px;
+	padding: 5px 20px;
+	font-size: 15px;
+	margin-bottom: 7%;
+}
+
+.user-form .submit{
+width: 35%;
+height: 60px;
+font-size: 22px;
+margin-bottom: 0;
+display: block;
+margin: auto;
+}
+
+.contact-box{
+	height: 450px;
+	width: 100%;
+	padding: 15% 20px;
+	float: left;
+}
+
+.contact-top{
+	color: white;
+	font-family: lato;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+/*blog*/
+.under-construction{
+  display: table;
+  width: 100%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.blog-contact ul{
+  top: 78%;
+  left: 50%;
+}
+
+/*sxc festival*/
+.sxc-logo{
+width: 100%;
+}
+
+.sxc-detail{
+width: 100%;
+padding: 0px;
+}
+
+
+.learn_more{
+display: block;
+margin: auto;
+}
+}
