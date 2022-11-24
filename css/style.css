@@ -47,6 +47,10 @@ html{
   float: left;
 }
 
+#special{
+  height: 100px;
+}
+
 .logo img {
   width: 100%;
   border-radius: 50%;
